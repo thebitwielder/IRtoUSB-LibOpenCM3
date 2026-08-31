@@ -1,0 +1,20 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/arm-none-eabi-gcc",
+      "-DSTM32F1",
+      "-DSTM32F103CBT6",
+      "-I../libopencm3/include",
+      "-mcpu=cortex-m3",
+      "-mthumb",
+      "-msoft-float",
+      "-c",
+      "-o",
+      "main.o",
+      "main.c"
+    ],
+    "directory": "/run/media/thebitwielder/eHDD/Projects/Code/LibOpenCM3/USB-IR",
+    "file": "/run/media/thebitwielder/eHDD/Projects/Code/LibOpenCM3/USB-IR/main.c",
+    "output": "/run/media/thebitwielder/eHDD/Projects/Code/LibOpenCM3/USB-IR/main.o"
+  }
+]
